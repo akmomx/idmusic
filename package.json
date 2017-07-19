@@ -1,0 +1,33 @@
+{
+  "name": "aztec",
+  "version": "0.0.1",
+  "description": "Hopi implementation of Laravel Mix",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hopi-stack/aztec.git"
+  },
+  "keywords": [
+    "Frontend",
+    "Laravel",
+    "mix",
+    "automation",
+    "hopi",
+    "stack"
+  ],
+  "author": "Victor Avelar <deltatuts@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hopi-stack/aztec/issues"
+  },
+  "homepage": "https://github.com/hopi-stack/aztec#readme",
+  "devDependencies": {
+    "laravel-mix": "^0.12.1"
+  }
+}
