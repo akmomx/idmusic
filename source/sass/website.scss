@@ -11,7 +11,7 @@ body {
   .layer {
     min-height: inherit;
     padding-top: 20px;
-    background: rgba(black, .8);
+    background: rgba(black, .65);
   }
 }
 
@@ -31,4 +31,16 @@ body {
 
 .very-spaced-top {
   margin-top: 10vh;
+}
+
+.single-header {
+  padding: 10vh 0;
+}
+
+.section {
+  padding: 5vh 0;
+}
+
+.footer-logo {
+  max-width: 200px;
 }
