@@ -24,6 +24,10 @@ body {
   margin-top: 5vh;
 }
 
+.is-justified {
+  text-align: justify;
+}
+
 .button-horizontal-spacer {
   margin-left: 10px;
   margin-right: 10px;
