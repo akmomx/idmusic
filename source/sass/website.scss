@@ -1,3 +1,5 @@
+$elements-icon: "\F046";
+
 body {
   font-family: 'Montserrat', 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
@@ -47,4 +49,36 @@ body {
 
 .footer-logo {
   max-width: 200px;
+}
+
+// Paquetes
+.pack {
+  * {
+    color: white;
+  }
+}
+
+.pack-one {
+  background: #e53935;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.pack-two {
+  background: #ff4b1f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pack-content {
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.pack-element::before {
+  content: $elements-icon;
+  font-family: FontAwesome;
+  font-weight: 100;
+  margin-right: 10px;
 }
