@@ -11,7 +11,8 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('source/js/website.js', 'dist/js/')
+mix
+  //  .js('source/js/website.js', 'dist/js/')
    .sass('source/sass/website.scss', 'dist/css/')
    .browserSync({
      server: true,

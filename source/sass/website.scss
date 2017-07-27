@@ -52,16 +52,10 @@ body {
 }
 
 // Paquetes
-.pack {
-  * {
-    color: white;
-  }
-}
-
 .pack-one {
-  background: #e53935;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgba(#e53935, .2);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(#e35d5b, .2), rgba(#e53935, .2));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(#e35d5b, .2), rgba(#e53935, .2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
